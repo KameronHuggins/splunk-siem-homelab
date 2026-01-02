@@ -77,3 +77,14 @@ index=main sourcetype="WinEventLog:Security" (EventCode=4624 OR EventCode=4625)
 T1110 — Brute Force
 T1078 — Valid Accounts (only if a success occurs after repeated failures)
 
+## Evidence (Screenshots)
+
+**Detection 1 — 4625 threshold**
+![4625 threshold](https://github.com/KameronHuggins/splunk-siem-homelab/blob/main/projects/01-auth-bruteforce/screenshots/4625-threshold.PNG)
+
+**Detection 2 — 4625 + LogonType filter**
+![4625 logontype](https://github.com/KameronHuggins/splunk-siem-homelab/blob/main/projects/01-auth-bruteforce/screenshots/4625-logontype.PNG)
+
+**Detection 3 — 4624 success after failures**
+![4624 after fails](https://github.com/KameronHuggins/splunk-siem-homelab/blob/main/projects/01-auth-bruteforce/screenshots/4624-after-fails.PNG)
+
