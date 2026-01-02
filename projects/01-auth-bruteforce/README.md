@@ -63,7 +63,7 @@ index=wineventlog sourcetype=WinEventLog:Security (EventCode=4625 OR EventCode=4
 | sort -prior_fails
 ```
 
-**Validation steps** (what I did to prove it worked)
+## Validation steps (what I did to prove it worked)
 
 -Generated repeated failed logons against the Windows Server 2022 host in an isolated lab.
 -Verified 4625 events appeared in Splunk and identified the top source + targeted accounts.
