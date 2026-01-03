@@ -71,11 +71,12 @@ T1110 — Brute Force (failed logons)
 ## Evidence (Screenshots)
 
 **Detection 1 — 5156 RDP (3389)**
-![5156 RDP 3389](https://github.com/KameronHuggins/splunk-siem-homelab/blob/main/projects/02-wfp-5156-correlation/screenshots/5156-rdp-3389.png)
+![5156 RDP 3389](https://github.com/KameronHuggins/splunk-siem-homelab/blob/main/projects/02-wfp-5156-correlation/screenshots/5156-rdp-3389.PNG)
 
 **Detection 2 — 5156 SMB (445)**
-![5156 SMB 445](https://github.com/KameronHuggins/splunk-siem-homelab/blob/main/projects/02-wfp-5156-correlation/screenshots/5156-smb-445.png)
+![5156 SMB 445](https://github.com/KameronHuggins/splunk-siem-homelab/blob/main/projects/02-wfp-5156-correlation/screenshots/5156-smb-445.PNG)
 
 **Detection 3 — Correlation (5156 + 4625)**
-![5156 + 4625 correlation](https://github.com/KameronHuggins/splunk-siem-homelab/blob/main/projects/02-wfp-5156-correlation/screenshots/5156-4625-correlation.png)
+![5156 + 4625 correlation](https://github.com/KameronHuggins/splunk-siem-homelab/blob/main/projects/02-wfp-5156-correlation/screenshots/5156-4625-correlation.PNG)
+
 
